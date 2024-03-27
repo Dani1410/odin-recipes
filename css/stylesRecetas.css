@@ -1,0 +1,30 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#title {
+    font-size: 40px;
+    text-align: center;
+    color: blueviolet;
+}
+
+img {
+    width: 400px;;
+}
+
+.subTitle{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    color: skyblue;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+li>p {
+    text-align: justify;
+}
