@@ -1,0 +1,31 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#title{
+    font-size: 45px;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .cards{
+    width: 30%;
+    height: auto;
+}
+
+.container .cards .links{
+    color: #000000;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.container .cards img {
+    width: 370px;
+    height: 270px;
+}
