@@ -1,22 +1,25 @@
 *{
     font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
 }
 
 #title{
     font-size: 45px;
     text-align: center;
+    height: 15vh;
+    font-size: 10vh;
 }
 
 .container{
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .container .cards{
     width: 30%;
-    height: auto;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 15px;
 }
 
 .container .cards .links{
@@ -26,6 +29,8 @@
 }
 
 .container .cards img {
+    margin: 15px;
     width: 370px;
     height: 270px;
+    border-radius: 50%;
 }
